@@ -17,7 +17,7 @@ import {
 import './../../styles/App.css';
 import { ColorArrayMapping } from '../../shared/constants';
 
-function GridSwap() {
+function GridSwap({ state, dispatch }) {
   const [items, setItems] = useState([
     {id:'1', text: 'A'},
     {id:'2', text: 'B'},
